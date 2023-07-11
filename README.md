@@ -56,6 +56,9 @@
 ## Design Patterns
 
 ### Creational Design Patterns
+
+Aim to increase flexibility and reuse of the existing code.
+
 + #### Factory Method
 
 
