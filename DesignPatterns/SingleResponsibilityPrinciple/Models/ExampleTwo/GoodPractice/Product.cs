@@ -25,6 +25,7 @@ public class Product
         if (product == null)
         throw new NullReferenceException();
         
+        // divide workflows between separate classes
         _productRepository.Add(product);
         _emailService.Send();
     }

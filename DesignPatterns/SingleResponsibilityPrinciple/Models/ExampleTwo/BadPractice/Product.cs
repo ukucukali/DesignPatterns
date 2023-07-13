@@ -18,7 +18,7 @@ public class Product
         if (product == null)
             throw new NullReferenceException();
         
-        // Code for saving the product to the database
+        // Code for saving the product to the database and declaring whole process here
         SqlOperations connection = new SqlOperations();
         connection.Connect();
         connection.Add<Product>(product);
