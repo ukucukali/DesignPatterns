@@ -8,7 +8,7 @@ Console.WriteLine("Please Check examples in models folder \n");
 
 
 // bad practice apple can be overwritten by banana class and banana class depends on apple class
-// which a
+// which can be over written by mistakenly 
 Console.WriteLine("Bad Practice\n");
 
 var apple = new Banana();
