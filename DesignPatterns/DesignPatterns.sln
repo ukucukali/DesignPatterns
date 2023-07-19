@@ -25,13 +25,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PillarsOfOOP", "PillarsOfOOP", "{FF623BFB-1E52-4941-8EB0-0225409013C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{6F556602-FC21-479B-9883-A2DD55C88A8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "PillarsOfOOP\Abstraction\Abstraction.csproj", "{6F556602-FC21-479B-9883-A2DD55C88A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{A53156A6-C348-4154-AC9E-2E822D9AAAFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "PillarsOfOOP\Encapsulation\Encapsulation.csproj", "{A53156A6-C348-4154-AC9E-2E822D9AAAFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphsim", "Polymorphsim\Polymorphsim.csproj", "{26A791E6-9EAB-4753-BACE-96A8DCAC701C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphsim", "PillarsOfOOP\Polymorphsim\Polymorphsim.csproj", "{26A791E6-9EAB-4753-BACE-96A8DCAC701C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{49AF01A0-5518-4CFE-BD61-7923736C3223}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "PillarsOfOOP\Inheritance\Inheritance.csproj", "{49AF01A0-5518-4CFE-BD61-7923736C3223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
