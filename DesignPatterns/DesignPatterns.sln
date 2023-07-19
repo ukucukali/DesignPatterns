@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{969F8777
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SOLID\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{7801CB08-5C1A-40FD-87F4-23B1447FCCB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{EE07100D-4F64-44FD-90B6-B5AB6D70935F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "SOLID\OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{EE07100D-4F64-44FD-90B6-B5AB6D70935F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{10306CF6-4635-4E70-B78A-6FE54FE59200}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "SOLID\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{10306CF6-4635-4E70-B78A-6FE54FE59200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{F10C8F5C-E214-4116-91E8-E5AE1EE8483F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "SOLID\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{F10C8F5C-E214-4116-91E8-E5AE1EE8483F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{D9A62648-223D-409E-9649-7E5CEBF002F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "SOLID\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{D9A62648-223D-409E-9649-7E5CEBF002F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{F8A6E087-4079-42B8-A2DE-50EE73F5CC54}"
 EndProject
