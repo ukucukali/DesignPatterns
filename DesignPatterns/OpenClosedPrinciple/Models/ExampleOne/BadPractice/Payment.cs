@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrincible.Models.BadPractice;
+﻿namespace OpenClosedPrinciple.Models.BadPractice;
 
 public class Payment
 {

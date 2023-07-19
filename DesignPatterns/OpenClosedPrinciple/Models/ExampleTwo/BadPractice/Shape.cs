@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrincible.Models.ExampleTwo.BadPractice;
+﻿namespace OpenClosedPrinciple.Models.ExampleTwo.BadPractice;
 
 public class Shape
 {

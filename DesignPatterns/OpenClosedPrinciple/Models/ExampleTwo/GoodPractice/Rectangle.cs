@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrincible.Models.ExampleTwo.GoodPractice;
+﻿namespace OpenClosedPrinciple.Models.ExampleTwo.GoodPractice;
 
 public class Rectangle : Shape
 {
