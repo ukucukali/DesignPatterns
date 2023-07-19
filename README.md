@@ -47,6 +47,10 @@
 ## Pillars of OOP
 
 ### Abstraction
+
++ Abstraction involves creating abstract classes and interfaces to define the structure and behavior of objects without providing a complete implementation for their individual characteristics. 
++ It allows you to represent real-world entities and their interactions in a simplified and more manageable way so it makes code more maintainable, extensible, and easier to manage.
+
 ### Encapsulation
 ### Polymorphsim
 ### Inheritance
@@ -111,9 +115,9 @@ Aim to increase flexibility and reuse of the existing code.
 
 + #### Visitor
 
-
 ---
 
 >### References
 > +  Alexander Shvets - Dive Into Design Patterns
 > +  Robert Martin - Agile Software Development, Principles, Patterns, and Practices
+> +  Internet Searches
