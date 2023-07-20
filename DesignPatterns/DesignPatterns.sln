@@ -17,11 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrincipl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{F8A6E087-4079-42B8-A2DE-50EE73F5CC54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalDesignPatterns", "CreationalDesignPatterns", "{0CE9931B-D48B-4637-A182-2097C906B4B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalDesignPatterns", "DesignPatterns\CreationalDesignPatterns", "{0CE9931B-D48B-4637-A182-2097C906B4B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralDesignPatterns", "StructuralDesignPatterns", "{5FA5F812-8284-4873-BAD9-13BCE81C5E26}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralDesignPatterns", "DesignPatterns\StructuralDesignPatterns", "{5FA5F812-8284-4873-BAD9-13BCE81C5E26}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", "BehavioralDesignPatterns", "{DB2ABBE0-DB70-4ECB-BDE8-6F41B0B0CC6C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", "DesignPatterns\BehavioralDesignPatterns", "{DB2ABBE0-DB70-4ECB-BDE8-6F41B0B0CC6C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PillarsOfOOP", "PillarsOfOOP", "{FF623BFB-1E52-4941-8EB0-0225409013C2}"
 EndProject
