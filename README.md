@@ -12,7 +12,7 @@
 ### Open/Closed Principle
 
 + Aim to while adding new features to code keep  existing code working
-+ When you describe this principle there is very common description is that "Class­es should be open for exten­sion but closed for modification."
++ When you describe this principle there is very common description is that "Classes should be open for extension but closed for modification."
 + Open: class can be extended as subclass and use it whereever you needed.
 + Closed: when class is %100 percent ready to use by other classes and interface won't change in the future
 + To sum up class should be open for extention and close to be modification at the same time.
@@ -52,6 +52,11 @@
 + It allows you to represent real-world entities and their interactions in a simplified and more manageable way so it makes code more maintainable, extensible, and easier to manage.
 
 ### Encapsulation
+
++ Main goal to controll an object to hide parts of its state and behaviors from other objects, exposing only a limited interface to the rest of the program.
++ Private and protected keywords are use to restrict fully or partialy accesses to fields or methods.
++ Interfaces are contracts about interaction between objects. That is why interfaces only care about behaivors of object so fields cannot be declared in the interfaces or protocols
+
 ### Polymorphsim
 ### Inheritance
 
