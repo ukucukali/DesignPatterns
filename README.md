@@ -17,7 +17,6 @@
 + Closed: when class is %100 percent ready to use by other classes and interface won't change in the future
 + To sum up class should be open for extention and close to be modification at the same time.
 
-
 ### Liskov Substitution Principle
 
 + Aim to generete as general as possible structures to use for wide purposes.
@@ -36,14 +35,15 @@
 + Making big interfaces can cause code break in classes where those unused methods even not used.
 + Classes can inherite only one super class but for interfaces there are no limits.
 
-
 ### Dependency Inversion Principle
 
 + Low-level classes do basic operations database connections, data flows etc.
 + High-level classes do complex jobs and direct low-level classes for those jobs.
 + High level classes should not depend on low-level classes. They should depend to their abstract classes.
 + This problem occures because usually low-level classes created first
+
 ---
+
 ## Pillars of OOP
 
 ### Abstraction
@@ -54,6 +54,10 @@
 ### Encapsulation
 ### Polymorphsim
 ### Inheritance
+
++ Main benefit of inheritance is code reuse.
++ It is applied when there is a need for another class with slightly different from the existing one.
++ Main goal is do not dublicate code, instead, extend the existing class and put the extra functionality into a created subclass, which inherits fields and methods of the superclass.
 
 ---
 
