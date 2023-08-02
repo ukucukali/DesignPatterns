@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "PillarsOfOOP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "PillarsOfOOP\Encapsulation\Encapsulation.csproj", "{A53156A6-C348-4154-AC9E-2E822D9AAAFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphsim", "PillarsOfOOP\Polymorphsim\Polymorphsim.csproj", "{26A791E6-9EAB-4753-BACE-96A8DCAC701C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "PillarsOfOOP\Polymorphism\Polymorphism.csproj", "{26A791E6-9EAB-4753-BACE-96A8DCAC701C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "PillarsOfOOP\Inheritance\Inheritance.csproj", "{49AF01A0-5518-4CFE-BD61-7923736C3223}"
 EndProject

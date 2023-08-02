@@ -57,7 +57,17 @@
 + Private and protected keywords are use to restrict fully or partialy accesses to fields or methods.
 + Interfaces are contracts about interaction between objects. That is why interfaces only care about behaivors of object so fields cannot be declared in the interfaces or protocols
 
-### Polymorphsim
+### Polymorphism
+
++ Main goal to enable code to be more generic, flexible, and extensible.
++ Polymorphism is closely related to inheritance. It occurs when a derived class inherits from a base class, and objects of the derived class can be used wherever objects of the base class are expected.
++ It promotes code reusability, simplification, and maintenance.
++ Treating objects of different classes as objects of a common base class, polymorphism simplifies code design and makes it easier to work with diverse types of objects in a unified manner.
++ It allows to overide methods that already defined in its base class.
++ There are two types of polymorphism, compile-time polymorphism (static polymorphism) and run-time polymorphism (dynamic polymorphism).
+  + Compile-time polymorphism (static polymorphism) is resolved at compile time and is achieved through method overloading. Method overloading allows multiple methods with the same name but different parameters to coexist in the same class.
+  + Run-time polymorphism (Dynamic Polymorphism) is resolved at runtime and is achieved through method overriding. Method overriding occurs when a derived class provides its specific implementation of a method that is already defined in the base class.
+
 ### Inheritance
 
 + Main benefit of inheritance is code reuse.
