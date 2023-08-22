@@ -7,8 +7,6 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Models\ExampleOne\" />
-    </ItemGroup>
+
 
 </Project>

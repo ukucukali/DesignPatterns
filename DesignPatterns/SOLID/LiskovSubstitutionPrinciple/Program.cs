@@ -1,8 +1,7 @@
 ﻿
 
 
-using System.Net.Http.Json;
-using LiskovSubstitutionPrinciple.Models.ExampleTwo.BadPractice;
+using LiskovSubstitutionPrinciple.ExampleTwo.BadPractice;
 
 Console.WriteLine("Please Check examples in models folder \n");
 
@@ -21,10 +20,10 @@ Console.WriteLine(banana.GetName());
 // good practice apple and banana will keep their self unchanged and they will not depend on each other
 Console.WriteLine("Good Practice\n");
 
- var apple2 = new LiskovSubstitutionPrinciple.Models.ExampleTwo.GoodPractice.Apple();
+ var apple2 = new LiskovSubstitutionPrinciple.ExampleTwo.GoodPractice.Apple();
 Console.WriteLine(apple2.GetName());
 
- var banana2 = new LiskovSubstitutionPrinciple.Models.ExampleTwo.GoodPractice.Banana();
+ var banana2 = new LiskovSubstitutionPrinciple.ExampleTwo.GoodPractice.Banana();
 Console.WriteLine(banana2.GetName());
 
 
