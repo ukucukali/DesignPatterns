@@ -78,12 +78,27 @@
 
 ## Design Patterns
 
+  + Design patterns are typical solutions to commonly occurring problems in software design.
+  + They are not spesific codes, but they are general consepts for solving a spesiic problem.
+  + If pattern only applicable in one language is called "idioms", if can be implemented in various languages is called "architectural patterns".
+
 ### Creational Design Patterns
 
 Aim to increase flexibility and reuse of the existing code.
 
 + #### Factory Method
 
+  + The code that uses the factory method(client code) sees no diffrence between classes so it returns actual products from various subclasses. 
+    Because for the client it is important that client will get same products and methods as actual class contains, but not what those products returned or how those methods works internaly. 
+  + This pattern promotes loose coupling by allowing the code to depend on abstractions instead of concrete implementations.
+  + This design improves modularity, adheres to principles like abstraction and encapsulation, and promotes code reusability and maintainability.
+  + Factory Method pattern intent to define an interface for creating objects, but it lets subclasses decide which class to instantiate. 
+    This promotes flexibility, as it allows for easy extension and customization of the object creation process.
+ 
+  #### Applicability
+  + Use the Factory Method when you want to;
+      + Provide users of your library or framework with a way to extend its internal components.
+      + Save system resources by reusing existing objects instead of rebuilding them each time.
 
 + #### Abstract Factory
 
