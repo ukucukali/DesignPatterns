@@ -88,19 +88,32 @@ Aim to increase flexibility and reuse of the existing code.
 
 + #### Factory Method
 
+  + Factory Method pattern intent to define an interface for creating objects, but it lets subclasses decide which class to instantiate.
+  This promotes flexibility, as it allows for easy extension and customization of the object creation process.
   + The code that uses the factory method(client code) sees no diffrence between classes so it returns actual products from various subclasses. 
     Because for the client it is important that client will get same products and methods as actual class contains, but not what those products returned or how those methods works internaly. 
   + This pattern promotes loose coupling by allowing the code to depend on abstractions instead of concrete implementations.
   + This design improves modularity, adheres to principles like abstraction and encapsulation, and promotes code reusability and maintainability.
-  + Factory Method pattern intent to define an interface for creating objects, but it lets subclasses decide which class to instantiate. 
-    This promotes flexibility, as it allows for easy extension and customization of the object creation process.
+  
  
   #### Applicability
   + Use the Factory Method when you want to;
       + Provide users of your library or framework with a way to extend its internal components.
       + Save system resources by reusing existing objects instead of rebuilding them each time.
+      + Can be used when there are many similar components bind with same interface and additional components can be added in future 
 
 + #### Abstract Factory
+
+  + Abstract Factory Method pattern intent to create families of related objects while ensuring that the objects are compatible and can work together.
+  + The code that uses the abstract factory design be sure that all the created product will be competible with each other.
+  + This pattern promotes loose coupling by allowing the code to depend on abstractions instead of concrete implementations.
+  + Consider implementing the Abstract Factory when you have a class with a set of Factory Methods that blur its primary responsibility.
+
+  #### Applicability
+  + Use the Abstract Factory Method when you want to;
+    + System needs to be independent of how its objects are created, composed, and represented.
+    + Can be used when there are many related product with similar component types binded with same interface and additional product can be added in future.
+
 
 + #### Builder
 

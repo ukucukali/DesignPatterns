@@ -2,6 +2,12 @@
 using AbstractFactoryMethod.ExampleOne.Solution.Components.Buttons;
 using AbstractFactoryMethod.ExampleOne.Solution.Components.CheckBoxes;
 using AbstractFactoryMethod.ExampleOne.Solution.Interfaces;
+using AbstractFactoryMethod.ExampleTwo.Problem.Components.Processor;
+using AbstractFactoryMethod.ExampleTwo.Problem.Components.Storage;
+using AbstractFactoryMethod.ExampleTwo.Solution.AbstractFactoryMethods;
+using AbstractFactoryMethod.ExampleTwo.Solution.Interfaces;
+using ExampleTwo = AbstractFactoryMethod.ExampleTwo.Problem.Interfaces;
+
 
 /*
   STRUCTURE
@@ -43,7 +49,7 @@ darkCheckbox.Render();
 
 #endregion
 
-Console.WriteLine("=============================");
+Console.WriteLine("\n=============================\n");
 
 #region Solution
 
@@ -62,6 +68,62 @@ IButton button2 = theme2.CreateButton();
 ICheckbox checkbox2= theme2.CreateCheckbox();
 button2.Render();
 checkbox2.Render();
+
+#endregion
+
+#endregion
+
+Console.WriteLine("\n=============================\n");
+
+#region Example Two - Logic Units
+
+#region Problem
+
+/*
+ * Process of creating new objects there is a possibility to create wrong kind of instances from different kind of products
+ * Example in this scenario it is  possible to create desktop processor and laptop storage because all of them bind with similar interfaces.
+ * To avoid this abstract factory can be applied and devices can be group to eliminate such a problem.
+ */
+
+ExampleTwo.IProcessor processor1 = new DesktopProcessor();
+ExampleTwo.IStorage storage1 = new LaptopStorage();
+
+processor1.PerformCalculations();
+storage1.StoreData();
+
+Console.WriteLine("----------------------");
+
+ExampleTwo.IProcessor processor2 = new LaptopProcessor();
+ExampleTwo.IStorage storage2 = new DesktopStorage();
+
+processor2.PerformCalculations();
+storage2.StoreData();
+
+#endregion
+
+Console.WriteLine("\n=============================\n");
+
+#region Solution
+
+IComputerFactory desktop = new DesktopFactory();
+IProcessor desktopProcessor = desktop.CreateProcessor();
+IStorage desktopStorage = desktop.CreateStorage();
+
+Console.WriteLine("----------------------");
+
+desktopProcessor.PerformCalculations();
+desktopStorage.StoreData();
+
+Console.WriteLine("\n=============================\n");
+
+IComputerFactory laptop = new LaptopFactory();
+IProcessor laptopProcessor = laptop.CreateProcessor();
+IStorage laptopStorage = laptop.CreateStorage();
+
+Console.WriteLine("----------------------");
+
+laptopProcessor.PerformCalculations();
+laptopStorage.StoreData();
 
 #endregion
 
