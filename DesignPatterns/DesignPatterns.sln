@@ -33,9 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "PillarsOfOO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "PillarsOfOOP\Inheritance\Inheritance.csproj", "{49AF01A0-5518-4CFE-BD61-7923736C3223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "DesignPatterns\CreationalDesignPatterns\FactoryMethod\FactoryMethod.csproj", "{CB65B7C1-283B-47F8-BFA5-97499DD794B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "DesignPatterns\CreationalDesignPatterns\Factory\Factory.csproj", "{CB65B7C1-283B-47F8-BFA5-97499DD794B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryMethod", "DesignPatterns\CreationalDesignPatterns\AbstractFactoryMethod\AbstractFactoryMethod.csproj", "{4327C55B-51C9-408E-8AB2-901D112B0933}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "DesignPatterns\CreationalDesignPatterns\AbstractFactory\AbstractFactory.csproj", "{4327C55B-51C9-408E-8AB2-901D112B0933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "DesignPatterns\CreationalDesignPatterns\Builder\Builder.csproj", "{7D119C58-D26E-46DC-AF50-C45700630FCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{4327C55B-51C9-408E-8AB2-901D112B0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4327C55B-51C9-408E-8AB2-901D112B0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4327C55B-51C9-408E-8AB2-901D112B0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D119C58-D26E-46DC-AF50-C45700630FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D119C58-D26E-46DC-AF50-C45700630FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D119C58-D26E-46DC-AF50-C45700630FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D119C58-D26E-46DC-AF50-C45700630FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{49AF01A0-5518-4CFE-BD61-7923736C3223} = {FF623BFB-1E52-4941-8EB0-0225409013C2}
 		{CB65B7C1-283B-47F8-BFA5-97499DD794B5} = {0CE9931B-D48B-4637-A182-2097C906B4B9}
 		{4327C55B-51C9-408E-8AB2-901D112B0933} = {0CE9931B-D48B-4637-A182-2097C906B4B9}
+		{7D119C58-D26E-46DC-AF50-C45700630FCF} = {0CE9931B-D48B-4637-A182-2097C906B4B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4917911-2CA6-4EC9-9263-546D7288EC59}
