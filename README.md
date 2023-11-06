@@ -1,4 +1,5 @@
 # Design Principles
+
 ## SOLID
 
 ### Single Responsibility Principle
@@ -77,10 +78,9 @@
 ---
 
 ## Design Patterns
-
-  + Design patterns are typical solutions to commonly occurring problems in software design.
-  + They are not spesific codes, but they are general consepts for solving a spesiic problem.
-  + If pattern only applicable in one language is called "idioms", if can be implemented in various languages is called "architectural patterns".
++ Design patterns are typical solutions to commonly occurring problems in software design.
++ They are not spesific codes, but they are general consepts for solving a spesiic problem.
++ If pattern only applicable in one language is called "idioms", if can be implemented in various languages is called "architectural patterns".
 
 ### Creational Design Patterns
 
@@ -95,7 +95,7 @@ Aim to increase flexibility and reuse of the existing code.
   + This pattern promotes loose coupling by allowing the code to depend on abstractions instead of concrete implementations.
   + This design improves modularity, adheres to principles like abstraction and encapsulation, and promotes code reusability and maintainability.
   
-  #### Applicability
+  ##### Applicability
   + Use the Factory when you want to;
     + Provide users of your library or framework with a way to extend its internal components.
     + Save system resources by reusing existing objects instead of rebuilding them each time.
@@ -108,25 +108,33 @@ Aim to increase flexibility and reuse of the existing code.
   + This pattern promotes loose coupling by allowing the code to depend on abstractions instead of concrete implementations.
   + Consider implementing the Abstract Factory when you have a class with a set of Factory Methods that blur its primary responsibility.
 
-  #### Applicability
+  ##### Applicability
   + Use the Abstract Factory pattern when you want to;
     + System needs to be independent of how its objects are created, composed, and represented.
     + Can be used when there are many related product with similar component types binded with same interface and additional product can be added in future.
-
 
 + #### Builder
 
   + Builder pattern intent to create complex object step by step and it allows to produce different types of an object using same constraction code.
   + It keeps objects hidden until they are correctly created, so it prevents to get incomplete results.
 
-  #### Applicability
+  ##### Applicability
   + Use the Builder pattern when you want to;
     + Eliminate too much overloaded constractors and build objects step by step, using only those steps that you really need.
     + Create different representations of some product which contains similar steps that differ only in the details.
     + Construct composite trees or other complex objects
 
-
 + #### Prototype
+  + Prototype pattern intent to let copy existing objects without making any code dependent on their classes.
+  + Also this pattern delegates the cloning process to the actual objects that are being cloned.
+  + The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object.
+  + It allows to clone objcects without coupling their concreate classes.It allows produce complex objects more conveniently.
+  + It can be count as alternative to inheritance when dealing with configuration presets for complex objects.
+      
+  ##### Applicability
+  + Use the Prototype pattern when;
+    + Used code doesn`t need to depend on the concrete classes of object that be copied.
+    + there is a need to reduce the number of subclasses thar only differ in the way they initialize their respective objects.
 
 + #### Singleton
 
@@ -146,30 +154,28 @@ Aim to increase flexibility and reuse of the existing code.
 
 + #### Proxy
 
-
 ### Behavioral Design Patterns
+  + #### Chain of Responsibility
 
-+ #### Chain of Responsibility
+  + #### Command
 
-+ #### Command
+  + #### Composite
 
-+ #### Composite
+  + #### Iterator
 
-+ #### Iterator
+  + #### Mediator
 
-+ #### Mediator
+  + #### Memento
 
-+ #### Memento
+  + #### Observer
 
-+ #### Observer
+  + #### State
 
-+ #### State
+  + #### Strategy
 
-+ #### Strategy
+  + #### Template
 
-+ #### Template
-
-+ #### Visitor
+ + #### Visitor
 
 ---
 
