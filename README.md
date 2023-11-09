@@ -137,6 +137,15 @@ Aim to increase flexibility and reuse of the existing code.
     + there is a need to reduce the number of subclasses thar only differ in the way they initialize their respective objects.
 
 + #### Singleton
+  + Singleton pattern ensures that a class has only one instance, while providing a global access point to this instance.
+  + Ensure that a class has only one instance but at the same time violates the Single Responsibility Principle.
+  + It allows us to control access to shared resources such as database or a file.
+  + It allows you to access instance of an object from anywhere in the program but at the same time it protects that instance from being overwritten by another code.
+
+  ##### Applicability
+    + Use the Singleton pattern when;
+      + A class in your program should have just a single instance available to all clients.
+      + You need stricter control over global variables.
 
 ### Structural Design Patterns
 
@@ -155,6 +164,7 @@ Aim to increase flexibility and reuse of the existing code.
 + #### Proxy
 
 ### Behavioral Design Patterns
+
   + #### Chain of Responsibility
 
   + #### Command
